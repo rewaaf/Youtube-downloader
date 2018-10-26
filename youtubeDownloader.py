@@ -2,7 +2,7 @@
 
 from pytube import YouTube
 
-link = input('Hello to YouTube Downloader\nPlease enter the link of the video: ')
+link = input('Hello to YouTube Downloader\nPlease enter link of the video: ')
 video = YouTube(link)
 vname = video.title
 print('The video title is: '+vname)
